@@ -1,0 +1,31 @@
+body {
+    background-color: #000;
+    background-image: url('../img/uk-res-logo.svg');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 40%, contain;
+    color: #00c2ff;
+    font-family: 'Bebas Neue', sans-serif;
+    min-height: 90vh;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#date {
+    margin-top: 1em;
+    font-size: 15vh;
+}
+
+h1 {
+    margin-top: 1em;
+    font-size: 15vh;
+}
+
+#reg {
+    font-size: 5vh;
+}
