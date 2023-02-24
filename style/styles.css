@@ -1,3 +1,8 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
     background-color: #FFF;
     color: #888;
@@ -20,6 +25,7 @@ h2 {
 #head #masthead {
        /* background-color: white; */
        z-index: 2;
+       padding: .25em;
 }
 
 #masthead:before {
