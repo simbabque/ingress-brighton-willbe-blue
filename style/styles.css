@@ -68,3 +68,7 @@ h2 {
 .card {
     color: #888;
 }
+
+.accordion h3 button:hover, .accordion h3 button:active {
+    text-decoration: none;
+}
