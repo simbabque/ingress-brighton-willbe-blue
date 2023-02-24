@@ -17,6 +17,22 @@ h1 {
 h2 {
     font-size: 50px;
 }
+#head #masthead {
+       /* background-color: white; */
+       z-index: 2;
+}
+
+#masthead:before {
+    right: -999em;
+    background:  white;
+    content: '';
+    display: block;
+    position: absolute;
+    width: 1888em;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
 
 #head.section {
     background: center url(../img/header.jpg);
