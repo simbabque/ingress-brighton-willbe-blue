@@ -73,6 +73,6 @@ h2 {
     color: #888;
 }
 
-.accordion h3 button:hover, .accordion h3 button:active {
+.accordion h3 button:hover, .accordion h3 button:active, .accordion h3 button:focus {
     text-decoration: none;
 }
